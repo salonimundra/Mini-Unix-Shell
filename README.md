@@ -1,5 +1,5 @@
 # Mini-Unix-Shell
-A simple Unix shell program that supports job control. To become more familiar with the concepts of process control and signaling.
+A simple Unix shell program that supports job control. To become more familiar with the concepts of process control and signaling. This helps you understand how foreground and background jobs are controlled.
 
 ## Files:
 
@@ -18,3 +18,6 @@ A simple Unix shell program that supports job control. To become more familiar w
 * mysplit.c	   Forks a child that spins for <n> seconds
 * mystop.c     Spins for <n> seconds and sends SIGTSTP to itself
 * myint.c      Spins for <n> seconds and sends SIGINT to itself
+
+### References
+1. [Job Control(Unix) Wikipedia](https://en.wikipedia.org/wiki/Job_control_(Unix))
